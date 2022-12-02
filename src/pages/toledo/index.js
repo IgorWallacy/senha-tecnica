@@ -10,7 +10,6 @@ import { Card } from "primereact/card";
 export default function Toledo() {
   const dia = moment(new Date()).format("DD");
   const mes = moment(new Date()).format("MM");
-  const ano = moment(new Date()).format("YY");
 
   return (
     <div>
