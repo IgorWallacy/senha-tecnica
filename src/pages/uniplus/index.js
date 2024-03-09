@@ -28,7 +28,7 @@ export default function Uniplus() {
           <img src={UniplusLogo} width="50%" height="50%" alt="logo_uniplus" />
           <h1 style={{ fontWeight: "400", fontFamily: "Inconsolata" }}>
             {" "}
-            Hoje é {moment(new Date()).format("DD/MM/YYYY")}
+            Hoje é {moment(new Date()).format("DD/MM/YYYY - dddd")}
           </h1>
 
           <h1 style={{ fontSize: "50px" }}> {dia * mes * ano * 3}</h1>
